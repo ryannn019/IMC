@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+
+        document.write("<center>")
+            document.write("<h1 color='BLUE' size='4'>SEU IMC</h1>")
+        $IMC = prompt("Quanto é o seu IMC?")
+        document.write("<br>")
+
+        if ($IMC < 18.5){
+            document.write("<img src='img/magro1.jfif' width='20%'><br>")
+            document.write("Você está com baixo peso.")
+        } 
+        if ($IMC > 18.5 && $IMC < 25){
+            document.write("<img src='img/normal.jpg' width='30%'><br>")
+            document.write("Você está com peso normal.")
+        }
+        if ($IMC > 24.9 && $IMC < 31){
+            document.write("<img src='img/sobrepeso.avif' width='20%'><br>")
+            document.write("Você está com sobrepeso.")
+        }
+        if ($IMC > 30){
+            document.write("<img src='img/obesidade.jpg' width='20%'><br>")
+            document.write("Você está com obesidade.")
+        }
+
+    </script>
+
+
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
